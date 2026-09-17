@@ -6,7 +6,6 @@ metadata:
     app.kubernetes.io/name: eval-go-min
     app.kubernetes.io/component: backend
     app.kubernetes.io/part-of: eval-go-min
-    app.kubernetes.io/managed-by: kubectl
 spec:
   replicas: 1
   selector:
@@ -24,7 +23,6 @@ spec:
         app.kubernetes.io/name: eval-go-min
         app.kubernetes.io/component: backend
         app.kubernetes.io/part-of: eval-go-min
-        app.kubernetes.io/managed-by: kubectl
     spec:
       containers:
       - name: eval-go-min
